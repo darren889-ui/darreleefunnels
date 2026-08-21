@@ -16,13 +16,13 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'Executive Leadership & Keynote Speaker',
     headline: 'Are you solving the Wrong Problem? The Leadership Code',
     metric: '+310% Lead Conversion',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a8194a0a6a03cda06e9a080.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Redesign%20%231.png',
     images: [
-      'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a8194a0a6a03cda06e9a080.png',
-      'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81af6ca6a03cda062bf8d5.png'
+      'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Redesign%20%231.png',
+      'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/blur%2060%25.png'
     ],
     beforeImg: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a8194a0a6a03cda06e9a080.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Redesign%20%231.png',
     beforePain: [
       'Cluttered wall of text with no visual anchor',
       'Unclear primary CTA hidden below the fold',
@@ -42,9 +42,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'Marketing for Elite Coaches & Consultants',
     headline: 'Book Yourself Solid: Marketing for Coaches',
     metric: '+285% Application Rate',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81983fa6a03cda06f0a6b8.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Redesign%20%232.png',
     beforeImg: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81983fa6a03cda06f0a6b8.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Redesign%20%232.png',
     beforePain: [
       'Outdated 2012 blog layout with 4 competing sidebars',
       'Confusing multi-step application form with 28 inputs',
@@ -64,9 +64,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'B2B SaaS & AI Product Studio',
     headline: 'Design Better AI Products & Interactive Interfaces',
     metric: '+440% Free Trial Signups',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819a03fe4291bd107a5b28.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%233.png',
     beforeImg: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819a03fe4291bd107a5b28.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%233.png',
     beforePain: [
       'Generic corporate template with dull stock illustrations',
       'Visitors didn’t understand what the AI product actually did',
@@ -86,9 +86,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'Digital Course & High-Volume Creator Funnel',
     headline: 'Build Profitable Faceless YouTube Channels & Scale to $10k/mo',
     metric: '4.9x ROAS on Meta Ads',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a7fd255b571c8e84d789.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%237.png',
     beforeImg: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a7fd255b571c8e84d789.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%237.png',
     beforePain: [
       'Cheap looking squeeze page with generic red countdown timers',
       'Failed Facebook ad compliance due to aggressive unverified claims',
@@ -108,9 +108,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'B2B Creative Operations & Agency Scaling',
     headline: 'Run Creative Teams. Deliver Great Work. Every Time.',
     metric: '18 Qualified Calls / Wk',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819a44fe4291bd107b3f9b.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/roof%20repair.png',
     beforeImg: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819a44fe4291bd107b3f9b.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/roof%20repair.png',
     beforePain: [
       'Unfocused agency service buffet confusing prospective buyers',
       'No clear case studies or tangible workflow walkthrough',
@@ -130,9 +130,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'E-Commerce Branding Masterclass',
     headline: 'Easily Create Memorable Brands: Master Naming Framework',
     metric: '$180k Launch Revenue',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e2c99074f5ef6f19745.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Vanguard-compare.png',
     beforeImg: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e2c99074f5ef6f19745.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Vanguard-compare.png',
     beforePain: [
       'Plain Shopify product page lacking storytelling and depth',
       'Zero student testimonials or before/after naming showcases',
@@ -152,9 +152,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'High-Ticket Health & Biohacking Protocol',
     headline: 'Reverse Biological Age: The Cellular Optimization Blueprint',
     metric: '+360% Consultation Bookings',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e53cf50f900f2cb3d75.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/kitchen-redesign-16jun26-compare.png',
     beforeImg: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e53cf50f900f2cb3d75.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/kitchen-redesign-16jun26-compare.png',
     beforePain: [
       'Clinical, intimidating medical jargon with poor mobile navigation',
       'No clear patient success stories or scientific proof benchmarks',
@@ -174,9 +174,9 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     niche: 'Private Wealth Management & Family Office',
     headline: 'Generational Wealth Preservation for High-Net-Worth Families',
     metric: '$4.2M Pipeline Generated',
-    image: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e6ecf50f900f2cb4089.png',
+    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/redesign%20%238.png',
     beforeImg: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a819e6ecf50f900f2cb4089.png',
+    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/redesign%20%238.png',
     beforePain: [
       'Generic corporate brochure website with zero lead capture mechanisms',
       'Unclear value proposition that sounded like traditional retail banking',
@@ -199,8 +199,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'saas',
     categoryLabel: 'SaaS Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a035255b571c8e69e0e6.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a035255b571c8e69e0e6.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/Funnels.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/Funnels.png',
     conversionLift: '+340% Trial Activation',
     platform: 'Webflow + HighLevel',
     colorTheme: 'from-purple-900/40 via-indigo-900/20 to-slate-950',
@@ -223,8 +223,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'coaching',
     categoryLabel: 'Coaching Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a6d2cf50f900f2e2575f.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a6d2cf50f900f2e2575f.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%2035.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%2035.png',
     conversionLift: '+220% Booked Strategy Calls',
     platform: 'GoHighLevel + Zapier',
     colorTheme: 'from-blue-900/40 via-sky-950/20 to-slate-950',
@@ -247,8 +247,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'health',
     categoryLabel: 'Health Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a739fe4291bd109a1f5d.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a739fe4291bd109a1f5d.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/SaaS.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/SaaS.png',
     conversionLift: '+410% Quiz Completion Rate',
     platform: 'ClickFunnels 2.0',
     colorTheme: 'from-emerald-950/40 via-teal-950/20 to-slate-950',
@@ -271,8 +271,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'business',
     categoryLabel: 'Business Coaching Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a98afe4291bd10a22ae2.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81a98afe4291bd10a22ae2.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/ai%20consultatant%20LP1.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/ai%20consultatant%20LP1.png',
     conversionLift: '3.8x Return on Ad Spend',
     platform: 'Systeme.io + Stripe',
     colorTheme: 'from-amber-950/40 via-stone-900/20 to-slate-950',
@@ -295,8 +295,12 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'finance',
     categoryLabel: 'Finance Coaching Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81ab96fe4291bd10a57160.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81ab96fe4291bd10a57160.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/lap-aa.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/lap-aa.png',
+    images: [
+      'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/lap-aa.png',
+      'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Group%201000008054.png'
+    ],
     conversionLift: '+195% High-Net-Worth Inquiries',
     platform: 'WordPress + Custom Bricks',
     colorTheme: 'from-slate-900/40 via-zinc-900/20 to-slate-950',
@@ -319,8 +323,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'course',
     categoryLabel: 'Course Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81abc4a6a03cda06255fb2.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81abc4a6a03cda06255fb2.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Female%20entrepreneur%20coach%20landing%20page.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/Female%20entrepreneur%20coach%20landing%20page.png',
     conversionLift: '$320,000 in 14 Days',
     platform: 'ClickFunnels 2.0 + HighLevel',
     colorTheme: 'from-violet-950/40 via-fuchsia-950/20 to-slate-950',
@@ -343,8 +347,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'saas',
     categoryLabel: 'E-Commerce Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81ae54a6a03cda062867f0.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81ae54a6a03cda062867f0.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%20-all%20mix.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%20-all%20mix.png',
     conversionLift: '+285% Average Order Value',
     platform: 'Shopify Plus + ReCharge',
     colorTheme: 'from-cyan-950/40 via-blue-950/20 to-slate-950',
@@ -367,8 +371,8 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     category: 'coaching',
     categoryLabel: 'High-Ticket Funnel',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81b30b99074f5ef6267258.png',
-    fullImage: 'https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81b30b99074f5ef6267258.png',
+    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/intelligent%20Ai.png',
+    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/c66727f964895f0b68291b8320cd45c0aacc84cd/intelligent%20Ai.png',
     conversionLift: '$850k Closed Cohort',
     platform: 'GoHighLevel + Typeform',
     colorTheme: 'from-amber-950/40 via-yellow-950/20 to-slate-950',
@@ -469,8 +473,8 @@ export const TRANSFORMATION_ITEMS = [
 
 export const FAQ_ITEMS: FaqItem[] = [
   {
-    question: 'What is a funnel and why do I need one?',
-    answer: 'A sales funnel is a step-by-step psychological process that guides potential customers through your offer—from initial awareness to final sale. Unlike a standard website with 20 distracting navigation links, a funnel focuses 100% of visitor attention on a single high-converting action (e.g., booking a call, buying a product, or claiming an audit).'
+    question: 'What is a funnel for?',
+    answer: 'A funnel is a step-by-step psychological process that guides potential customers through your offer—from initial awareness to final sale. it focuses 100% of visitor attention on a single high-converting action (e.g., booking a call, buying a product, or claiming an audit).'
   },
   {
     question: 'Who is this service for?',
@@ -481,23 +485,15 @@ export const FAQ_ITEMS: FaqItem[] = [
     answer: 'Most custom funnel projects are designed, built, and launched within 7 to 14 days, depending on scope and whether copy is provided or needs strategic optimization.'
   },
   {
-    question: 'What do you need from me to start?',
-    answer: 'To kick off, all I need is your primary offer details, existing brand assets (logo, brand colors if any), and your target audience overview via a quick 5-minute onboarding questionnaire. If you have existing copy or a draft, we will refine it together.'
+    question: 'Can you improve an existing landing page?',
+    answer: 'Yes. I can redesign and optimize your page for better clarity, trust, and conversions.'
   },
   {
-    question: 'What is your payment term?',
-    answer: 'A standard 50% deposit is required to initiate the project and secure your build sprint on the calendar. The remaining 50% is due upon 100% completion and client sign-off. Payments are processed securely via Stripe or PayPal.'
+    question: 'Do you provide copywriting?',
+    answer: 'Yes. I can help structure and refine the copy to make your offer easier to understand. If you have existing copy or a draft, we will refine it together'
   },
   {
-    question: 'How much does it cost to build the funnel?',
-    answer: 'Project investment starts at $500 for a focused single-page landing page redesign, scaling up based on multi-step funnels, custom copy, checkout upsells, and automation integrations. We discuss transparent, fixed pricing during your initial consultation.'
-  },
-  {
-    question: 'Which funnel platforms do you work with?',
-    answer: 'I specialize in GoHighLevel (GHL), ClickFunnels (2.0 & Classic), Systeme.io, WordPress with Elementor / Bricks Builder, Webflow, and Shopify. If your platform has custom CSS/HTML capabilities, I can build on it!'
-  },
-  {
-    question: 'Do you write the copy or just do the design?',
-    answer: 'Both! True conversion requires synergy between direct-response copy and visual hierarchy. I either write high-converting copy from scratch or surgically audit and optimize your existing copy for maximum punch and emotional resonance.'
+    question: 'How much does it cost?',
+    answer: 'The cost vary depand on the scope of the project, such as number of pages, scaling up based on multi-step funnels, checkout upsells, and automation integrations. We discuss transparent, will know what exactly included before we start.'
   }
 ];

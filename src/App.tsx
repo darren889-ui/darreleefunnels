@@ -10,9 +10,7 @@ import { FunnelLeakDiagnostic } from './components/FunnelLeakDiagnostic';
 import { ThreePillars } from './components/ThreePillars';
 import { BeforeAfterShowcase } from './components/BeforeAfterShowcase';
 import { ProjectsGrid } from './components/ProjectsGrid';
-import { SkillsMatrix } from './components/SkillsMatrix';
 import { AboutMe } from './components/AboutMe';
-import { TransformationGrid } from './components/TransformationGrid';
 import { FaqSection } from './components/FaqSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
@@ -76,16 +74,10 @@ export default function App() {
           onOpenAuditModal={handleOpenAuditModal}
         />
 
-        {/* 6. Skills & Tech Stack Matrix */}
-        <SkillsMatrix />
-
-        {/* 7. About Me (Evelyn Kong) Section */}
+        {/* 6. About Me Section */}
         <AboutMe onOpenAuditModal={handleOpenAuditModal} />
 
-        {/* 8. Imagine This: 30-Day Transformation Grid */}
-        <TransformationGrid onOpenAuditModal={handleOpenAuditModal} />
-
-        {/* 9. FAQ Section */}
+        {/* 7. FAQ Section */}
         <FaqSection onOpenAuditModal={handleOpenAuditModal} />
 
         {/* 10. Contact & Audit Request Form */}
@@ -206,8 +198,10 @@ export default function App() {
 
       {/* Floating Bottom Quick Action Button */}
       <div className="fixed bottom-6 right-6 z-40">
-        <button
-          onClick={handleOpenAuditModal}
+        <a
+          href="https://m.me/darren88.lee"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative flex items-center gap-2 px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-white bg-blue-600 hover:bg-blue-500 shadow-2xl shadow-blue-600/50 hover:scale-105 active:scale-95 transition-all cursor-pointer"
         >
           <span className="relative flex h-2.5 w-2.5">
@@ -215,8 +209,8 @@ export default function App() {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-white"></span>
           </span>
           <MessageCircle className="w-4 h-4" />
-          <span>Get Free Audit</span>
-        </button>
+          <span>Get a Free Audit</span>
+        </a>
       </div>
     </div>
   );

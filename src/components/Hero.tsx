@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAuditModal, onExploreClick }) 
       {/* Custom Background Image - crystal clear high definition layer with 8% brightness boost */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
-          src="https://assets.cdn.filesafe.space/k9A0GKh9i6ERv324l4ms/media/6a81776dcf50f900f2826e69.png"
+          src="https://raw.githubusercontent.com/darren889-ui/profile-image/6aa946bb95ce60ae2f6abc08ae230d02d0f61ebe/hiro-page-port.png"
           alt="Hero Background"
           className="w-full h-full object-cover object-center brightness-[1.08]"
           referrerPolicy="no-referrer"
@@ -26,7 +26,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAuditModal, onExploreClick }) 
         {/* Top Eyebrow Tag */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-950/60 border border-blue-500/30 text-blue-300 text-xs sm:text-sm font-semibold tracking-wide mb-6 shadow-inner">
           <Sparkles className="w-4 h-4 text-blue-400 animate-pulse" />
-          <span>Strategic Funnel & Landing Page Design</span>
+          <span>Strategic Landing Pages & Funnels Build</span>
         </div>
 
         {/* Hero Title */}
@@ -50,19 +50,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAuditModal, onExploreClick }) 
 
         {/* Primary CTA Block */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
-          <button
+          <a
             id="hero-primary-cta"
-            onClick={onOpenAuditModal}
+            href="https://m.me/darren88.lee"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl text-sm sm:text-base font-bold uppercase tracking-wider text-white bg-blue-600 hover:bg-blue-500 shadow-xl shadow-blue-600/40 hover:shadow-blue-500/60 hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer group"
           >
             <MessageCircle className="w-5 h-5 fill-white text-blue-600" />
-            <span>Send Me A Message on Messenger</span>
-          </button>
+            <span> Get a Free Audit</span>
+          </a>
         </div>
-
-        <p className="text-xs sm:text-sm text-slate-400 -mt-10 mb-14">
-          Tell me about your business and goals. Fast 24-hr response guaranteed.
-        </p>
 
         {/* Visual Showcase Fan of High-Converting Funnels */}
         <div className="relative max-w-6xl mx-auto mb-16 px-2">

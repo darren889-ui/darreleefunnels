@@ -23,6 +23,7 @@ export interface ProjectItem {
   designerTag: string;
   thumbnail: string;
   fullImage: string;
+  images?: string[];
   conversionLift: string;
   platform: string;
   colorTheme: string;

@@ -20,12 +20,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuditModal }) => {
               <span className="font-['Outfit'] font-black text-2xl tracking-tight text-white">
                 darrenlee<span className="text-blue-500">funnels</span>
               </span>
-              <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/30">
-                PRO
-              </span>
             </div>
-            <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold">
-              Strategic Funnel & Landing Page Design
+            <p className="text-xs text-slate-400 lowercase tracking-widest font-semibold">
+              Strategic Landing Page & Funnel Build
             </p>
           </div>
 
@@ -42,9 +39,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAuditModal }) => {
             </a>
             <a href="#projects" className="hover:text-blue-400 transition-colors">
               Portfolio
-            </a>
-            <a href="#skills" className="hover:text-blue-400 transition-colors">
-              Skills & Stack
             </a>
             <a href="#about" className="hover:text-blue-400 transition-colors">
               About Darren

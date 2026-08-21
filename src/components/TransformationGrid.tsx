@@ -77,13 +77,15 @@ export const TransformationGrid: React.FC<TransformationGridProps> = ({ onOpenAu
               Let's build the funnel that positions you as the premium, go-to leader in your market.
             </p>
 
-            <button
-              onClick={onOpenAuditModal}
+            <a
+              href="https://m.me/darren88.lee"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-sm sm:text-base font-bold uppercase tracking-wider text-white bg-blue-600 hover:bg-blue-500 shadow-xl shadow-blue-600/40 hover:scale-105 transition-all cursor-pointer"
             >
               <MessageCircle className="w-5 h-5" />
-              <span>Send Me A Message On Facebook</span>
-            </button>
+              <span>Free Consultation</span>
+            </a>
           </div>
         </div>
       </div>

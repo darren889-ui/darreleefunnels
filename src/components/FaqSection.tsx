@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HelpCircle, ChevronDown, ChevronUp, MessageCircle } from 'lucide-react';
+import { HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import { FAQ_ITEMS } from '../data/portfolioData';
 
 interface FaqSectionProps {
@@ -44,7 +44,6 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenAuditModal }) => {
         <div className="space-y-4">
           {FAQ_ITEMS.map((item, index) => {
             const isOpen = openIndices.includes(index);
-
             return (
               <div
                 key={index}
@@ -71,21 +70,6 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenAuditModal }) => {
               </div>
             );
           })}
-        </div>
-
-        {/* Still Have Questions? Card */}
-        <div className="mt-12 p-6 rounded-2xl bg-gradient-to-r from-blue-950/40 to-slate-900/80 border border-blue-500/30 text-center sm:flex sm:items-center sm:justify-between gap-4">
-          <div className="text-left mb-4 sm:mb-0">
-            <h4 className="font-bold text-white text-base">Have a specific question about your offer?</h4>
-            <p className="text-xs text-slate-400">Let's talk through your funnel architecture and tech requirements directly.</p>
-          </div>
-          <button
-            onClick={onOpenAuditModal}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold uppercase tracking-wider text-xs text-white bg-blue-600 hover:bg-blue-500 shadow-md transition-all cursor-pointer shrink-0"
-          >
-            <MessageCircle className="w-4 h-4" />
-            <span>Ask Evelyn Directly</span>
-          </button>
         </div>
       </div>
     </section>

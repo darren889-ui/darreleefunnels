@@ -30,15 +30,15 @@ export const FunnelLeakDiagnostic: React.FC<DiagnosticProps> = ({ onOpenAuditMod
             </h2>
 
             <div className="space-y-4 text-slate-300 text-base sm:text-lg leading-relaxed">
-              <p className="font-semibold text-white">Does this resonate with you...</p>
+              <p className="font-semibold text-white">Is this where you’re at?</p>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-center gap-2 text-slate-200">
                   <span className="w-2 h-2 rounded-full bg-red-500"></span>
-                  You're paying for expensive ads.
+                  You’re investing in paid traffic.
                 </li>
                 <li className="flex items-center gap-2 text-slate-200">
                   <span className="w-2 h-2 rounded-full bg-red-500"></span>
-                  You're building the backend systems and fulfillment.
+                  You’re also managing the systems and fulfillment that keep everything running.
                 </li>
               </ul>
               <p className="p-4 rounded-xl bg-red-950/20 border border-red-500/30 text-slate-200 text-sm sm:text-base">
@@ -181,35 +181,16 @@ export const FunnelLeakDiagnostic: React.FC<DiagnosticProps> = ({ onOpenAuditMod
             </div>
 
             <div className="pt-4 border-t border-blue-500/30">
-              <div className="flex items-center justify-between text-xs text-blue-200 mb-4 font-semibold">
-                <span>✓ High-Level / ClickFunnels / WordPress</span>
-                <span>✓ 7–14 Day Delivery</span>
-              </div>
-              <button
-                onClick={onOpenAuditModal}
+              <a
+                href="https://m.me/darren88.lee"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full py-3.5 px-6 rounded-xl font-bold uppercase tracking-wider text-white bg-blue-600 hover:bg-blue-500 shadow-xl shadow-blue-600/40 flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>Fix My Funnel Now</span>
-              </button>
+                <span>Request Free Funnel Audit & Proposal</span>
+              </a>
             </div>
-          </div>
-        </div>
-
-        {/* Directional Arrow CTA Callout */}
-        <div className="mt-14 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-3">
-            <div className="flex items-center gap-2 text-xs uppercase tracking-widest font-bold text-blue-300">
-              <span className="hidden sm:inline">⤷</span>
-              <span>Click the button to stop losing clients to your competitors</span>
-            </div>
-            <button
-              onClick={onOpenAuditModal}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold uppercase tracking-wider text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 shadow-lg shadow-blue-600/30 hover:scale-105 transition-all cursor-pointer text-xs"
-            >
-              <MessageCircle className="w-4 h-4" />
-              <span>Send Me A Message on Messenger</span>
-            </button>
           </div>
         </div>
       </div>

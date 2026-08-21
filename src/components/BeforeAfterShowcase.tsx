@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeftRight, CheckCircle2, XCircle, TrendingUp, Sparkles, Eye, ArrowRight, ExternalLink } from 'lucide-react';
+import { CheckCircle2, XCircle, Sparkles, Eye, ArrowRight, ExternalLink } from 'lucide-react';
 import { BEFORE_AFTER_CASES } from '../data/portfolioData';
 import { BeforeAfterCase } from '../types';
 
@@ -23,11 +23,6 @@ export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSele
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Section Heading */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/60 border border-blue-500/30 text-blue-400 text-xs font-bold uppercase tracking-wider mb-4">
-          <ArrowLeftRight className="w-4 h-4" />
-          <span>Real Client Redesign Teardowns</span>
-        </div>
-
         <h2 className="font-['Outfit'] font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mb-6">
           Before and After{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-300">
@@ -49,23 +44,6 @@ export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSele
                 key={item.id}
                 className="group relative rounded-3xl bg-gradient-to-b from-[#090f2b] to-[#050817] border border-blue-500/20 hover:border-blue-500/50 p-5 sm:p-7 shadow-2xl transition-all flex flex-col justify-between"
               >
-                {/* Header Information */}
-                <div className="mb-4">
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-400">
-                      {item.niche}
-                    </span>
-                    <span className="inline-flex items-center gap-1 text-xs font-bold font-mono text-emerald-400 bg-emerald-950/80 border border-emerald-500/40 px-2.5 py-0.5 rounded-full">
-                      <TrendingUp className="w-3.5 h-3.5" />
-                      {item.metric}
-                    </span>
-                  </div>
-
-                  <h3 className="font-['Outfit'] font-bold text-xl sm:text-2xl text-white group-hover:text-blue-300 transition-colors">
-                    {item.client}: {item.headline}
-                  </h3>
-                </div>
-
                 {/* Visual Showcase / Redesign Display with Scrollable View */}
                 {(item.images && item.images.length > 0) || item.image ? (
                   <div className="relative rounded-2xl overflow-hidden bg-slate-950 border border-blue-500/30 hover:border-blue-400 mb-6 shadow-2xl group/img transition-all duration-300">
@@ -78,9 +56,6 @@ export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSele
                       </div>
                       <span className="text-[10px] text-slate-400 font-sans flex items-center gap-1">
                         Interactive Redesign Preview {item.images && item.images.length > 1 ? `(${item.images.length} Pages)` : ''}
-                      </span>
-                      <span className="px-2 py-0.5 rounded bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 text-[9px] font-bold">
-                        Live
                       </span>
                     </div>
 
@@ -175,25 +150,14 @@ export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSele
                   </div>
                 )}
 
-                {/* Footer Actions & Tags */}
+                {/* Footer Actions */}
                 <div className="pt-2">
-                  <div className="flex flex-wrap gap-1.5 mb-4">
-                    {item.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-2.5 py-0.5 rounded-md bg-slate-900 border border-slate-800 text-slate-400 text-[10px] font-medium"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-
                   <button
                     onClick={() => onSelectCase(item)}
                     className="w-full py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider text-blue-300 bg-blue-950/50 hover:bg-blue-900/60 border border-blue-500/30 hover:border-blue-400 flex items-center justify-center gap-2 transition-all cursor-pointer group/btn"
                   >
                     <Eye className="w-3.5 h-3.5" />
-                    <span>View Case Study Breakdown</span>
+                    <span>Full View</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-1 transition-transform" />
                   </button>
                 </div>
