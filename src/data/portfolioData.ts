@@ -342,27 +342,29 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
     ]
   },
   {
-    id: 'ecommerce-scaling-funnel',
-    title: 'D2C Supplement & Subscription Funnel',
-    category: 'saas',
-    categoryLabel: 'E-Commerce Funnel',
+    id: 'leadup-website-platform',
+    title: 'LeadUp — B2B Lead Generation & Growth Platform',
+    category: 'business',
+    categoryLabel: 'B2B Growth Platform',
     designerTag: 'DESIGNED BY DARREN LEE',
-    thumbnail: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%20-all%20mix.png',
-    fullImage: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/Frame%20-all%20mix.png',
-    conversionLift: '+285% Average Order Value',
-    platform: 'Shopify Plus + ReCharge',
-    colorTheme: 'from-cyan-950/40 via-blue-950/20 to-slate-950',
-    overview: 'High-converting direct-to-consumer product funnel with dynamic bundle builders, one-click upsells, and subscription discount incentives.',
+    thumbnail: 'https://leadup-website-mu.vercel.app/',
+    fullImage: 'https://leadup-website-mu.vercel.app/',
+    liveUrl: 'https://leadup-website-mu.vercel.app/',
+    iframeUrl: 'https://leadup-website-mu.vercel.app/',
+    conversionLift: 'Live Vercel App',
+    platform: 'Next.js / React / Vercel',
+    colorTheme: 'from-blue-950/40 via-indigo-950/20 to-slate-950',
+    overview: 'High-performance interactive B2B lead generation, growth strategy, and conversion website engineered with sleek dark UX, dynamic capability breakdowns, and direct consultation booking.',
     keyFeatures: [
-      'Interactive tiered quantity selector with free gift unlocks',
-      'One-click post-purchase upsell flow maximizing checkout AOV',
-      'Clinical trial proof benchmarks and real customer video reviews',
-      'Instant mobile payment checkout integration with Apple Pay'
+      'Interactive live web app hosted on Vercel',
+      'Ultra-responsive direct-response B2B layout',
+      'Engineered service visualizers and ROI proof mechanics',
+      'Frictionless discovery call and audit scheduling workflow'
     ],
     results: [
-      { label: 'Checkout CVR', value: '6.4%' },
-      { label: 'AOV Increase', value: '+$42' },
-      { label: 'Subscription Rate', value: '44%' }
+      { label: 'Platform', value: 'Vercel' },
+      { label: 'App Status', value: 'Active' },
+      { label: 'Conversion', value: 'Live' }
     ]
   },
   {
@@ -387,6 +389,58 @@ export const GLIMPSE_PROJECTS: ProjectItem[] = [
       { label: 'Qualified Apps', value: '184' },
       { label: 'Seat Fill Rate', value: '100%' },
       { label: 'Total Revenue', value: '$850k' }
+    ]
+  },
+  {
+    id: 'reno-fit-live-platform',
+    title: 'RenoFit — Fitness & Transformation Platform',
+    category: 'health',
+    categoryLabel: 'Health & Fitness Platform',
+    designerTag: 'DESIGNED BY DARREN LEE',
+    thumbnail: 'https://reno-fit.vercel.app/',
+    fullImage: 'https://reno-fit.vercel.app/',
+    liveUrl: 'https://reno-fit.vercel.app/',
+    iframeUrl: 'https://reno-fit.vercel.app/',
+    conversionLift: 'Live Vercel App',
+    platform: 'Next.js / React / Vercel',
+    colorTheme: 'from-emerald-950/40 via-teal-950/20 to-slate-950',
+    overview: 'High-converting interactive fitness, training, and transformation web platform engineered with sleek dark UX, dynamic calculators, and mobile-first responsiveness.',
+    keyFeatures: [
+      'Interactive live web application hosted on Vercel',
+      'Ultra-responsive mobile and desktop layouts',
+      'High-contrast direct-response conversion hierarchy',
+      'Frictionless call-to-action routing and user journeys'
+    ],
+    results: [
+      { label: 'Platform', value: 'Vercel' },
+      { label: 'App Status', value: 'Active' },
+      { label: 'Conversion', value: 'Live' }
+    ]
+  },
+  {
+    id: 'fit-transform-lpem-platform',
+    title: 'FitTransform — Premium Coaching & Transformation Funnel',
+    category: 'health',
+    categoryLabel: 'Fitness & Transformation Funnel',
+    designerTag: 'DESIGNED BY DARREN LEE',
+    thumbnail: 'https://fit-transform-lpem.vercel.app/',
+    fullImage: 'https://fit-transform-lpem.vercel.app/',
+    liveUrl: 'https://fit-transform-lpem.vercel.app/',
+    iframeUrl: 'https://fit-transform-lpem.vercel.app/',
+    conversionLift: 'Live Vercel App',
+    platform: 'Next.js / React / Vercel',
+    colorTheme: 'from-amber-950/40 via-orange-950/20 to-slate-950',
+    overview: 'High-converting interactive fitness transformation and coaching sales funnel designed with dynamic interactive calculators, client transformation breakdowns, and direct-response lead generation flows.',
+    keyFeatures: [
+      'Interactive live web app hosted on Vercel',
+      'Dynamic transformation calculators and calorie roadmaps',
+      'High-impact direct-response mobile conversion layout',
+      'Frictionless call-to-action booking & application flow'
+    ],
+    results: [
+      { label: 'Platform', value: 'Vercel' },
+      { label: 'App Status', value: 'Active' },
+      { label: 'Conversion', value: 'Live' }
     ]
   }
 ];

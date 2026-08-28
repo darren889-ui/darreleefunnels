@@ -45,9 +45,24 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ onSelectProject }) =
                       <div className="w-2 h-2 rounded-full bg-amber-500/70" />
                       <div className="w-2 h-2 rounded-full bg-emerald-500/70" />
                     </div>
-                    <div className="flex items-center gap-1 text-blue-400">
-                      <Eye className="w-3 h-3" /> Preview
-                    </div>
+                    {project.liveUrl ? (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="flex items-center gap-1 text-emerald-400 hover:text-emerald-300 transition-colors"
+                      >
+                        <span className="truncate max-w-[140px] sm:max-w-[180px]">
+                          {project.liveUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                        </span>
+                        <ArrowRight className="w-2.5 h-2.5 -rotate-45" />
+                      </a>
+                    ) : (
+                      <div className="flex items-center gap-1 text-blue-400">
+                        <Eye className="w-3 h-3" /> Preview
+                      </div>
+                    )}
                   </div>
 
                   {/* Thumbnail Banner with Scrollable View */}
@@ -55,7 +70,16 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ onSelectProject }) =
                     className="relative h-72 sm:h-80 overflow-y-auto custom-scrollbar bg-slate-950 scroll-smooth"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    {project.images && project.images.length > 0 ? (
+                    {project.iframeUrl ? (
+                      <div className="w-full h-full relative group/frame">
+                        <iframe
+                          src={project.iframeUrl}
+                          title={project.title}
+                          className="w-full h-[600px] border-0 scale-90 sm:scale-100 origin-top-left pointer-events-auto bg-slate-950"
+                          loading="lazy"
+                        />
+                      </div>
+                    ) : project.images && project.images.length > 0 ? (
                       project.images.map((imgSrc, imgIdx) => (
                         <img
                           key={imgIdx}
@@ -77,7 +101,7 @@ export const ProjectsGrid: React.FC<ProjectsGridProps> = ({ onSelectProject }) =
                     {/* Bottom Floating Hint */}
                     <div className="sticky bottom-2 right-2 float-right mr-2 pointer-events-none z-10">
                       <div className="px-2.5 py-1 rounded-full bg-slate-950/85 border border-blue-500/40 text-blue-300 text-[10px] font-mono font-medium backdrop-blur-md shadow-lg flex items-center gap-1">
-                        <span>Scroll up/down to explore ↓</span>
+                        <span>{project.iframeUrl ? 'Interactive Live Preview' : 'Scroll up/down to explore ↓'}</span>
                       </div>
                     </div>
                   </div>

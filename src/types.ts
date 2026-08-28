@@ -24,6 +24,8 @@ export interface ProjectItem {
   thumbnail: string;
   fullImage: string;
   images?: string[];
+  liveUrl?: string;
+  iframeUrl?: string;
   conversionLift: string;
   platform: string;
   colorTheme: string;
