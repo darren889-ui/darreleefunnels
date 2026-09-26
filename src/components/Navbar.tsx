@@ -38,11 +38,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAuditModal }) => {
         {/* Brand Logo */}
         <a href="#" className="flex flex-col group">
           <div className="flex items-center gap-2">
-            <span className="font-['Outfit'] font-black text-[19px] sm:text-[23px] tracking-tight text-white group-hover:text-blue-400 transition-colors">
+            <span className="font-['Outfit'] font-black text-[19px] sm:text-[23px] tracking-tight text-white group-hover:text-blue-400 transition-colors inline-block scale-x-[1.025] origin-left">
               darrenlee<span className="text-blue-500">funnels</span>
             </span>
           </div>
-          <span className="text-[10px] tracking-wider font-semibold lowercase text-slate-400 -mt-0.5 group-hover:text-slate-300 transition-colors">
+          <span className="text-[10px] tracking-wider font-semibold lowercase text-slate-400 -mt-0.5 group-hover:text-slate-300 transition-colors inline-block scale-x-[0.98] origin-left">
             strategic landing page & funnel build
           </span>
         </a>

@@ -89,7 +89,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onOpenAuditModal }) => {
 
             <div className="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
               <p>
-                I help coaches, consultants, experts, and online businesses turn traffic into high-value clients and revenue.
+                I help coaches, consultants, and online business owners transform raw traffic into high-value, paying clients.
               </p>
               <p>
                 I create strategic, conversion-focused landing pages and funnels that combine compelling messaging, great design, and seamless user experience to guide your audience from interest to action.
