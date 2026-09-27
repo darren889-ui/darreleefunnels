@@ -59,26 +59,29 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     tags: ['Consulting', 'Application Funnel', 'ClickFunnels 2.0', 'Direct-Response Copy']
   },
   {
-    id: 'ai-products',
-    client: 'NeuralFlow AI',
-    niche: 'B2B SaaS & AI Product Studio',
-    headline: 'Design Better AI Products & Interactive Interfaces',
-    metric: '+440% Free Trial Signups',
-    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%233.png',
-    beforeImg: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/68d4bc8fbe4d868208bfff3182e9702bb99559cd/redesign%20%233.png',
+    id: 'hair-salon-redesign',
+    client: 'Luxe Hair Salon & Studio',
+    niche: 'High-End Hair Salon & VIP Appointment Booking Funnel',
+    headline: 'From Empty Chairs to Booked-Out Stylists: High-Ticket Hair Salon Redesign',
+    metric: '+320% Online Bookings',
+    image: '/images/b4-af-hair-salon.png',
+    images: [
+      '/images/b4-af-hair-salon.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/b4-af-hair-salon.png',
     beforePain: [
-      'Generic corporate template with dull stock illustrations',
-      'Visitors didn’t understand what the AI product actually did',
-      'No interactive interactive preview or live demo hook'
+      'Outdated clunky booking widget that lost mobile visitors',
+      'No visual showcase of premium transformations or stylist portfolio',
+      'Hidden pricing causing high inquiry drop-off and price shoppers'
     ],
     afterGain: [
-      'Electric neon glassmorphism aesthetic with glowing UI mockups',
-      'Interactive visual prompt playground directly in the hero section',
-      'Reduced time-to-signup to under 18 seconds'
+      'High-glamour luxury salon aesthetic with high-converting booking flow',
+      'Interactive VIP consultation & stylist selection quiz',
+      'Automated SMS deposit collection and reminder sequence reducing no-shows by 85%'
     ],
-    details: 'Crafted a tech-forward landing page that showcases AI capabilities in real-time, drastically reducing visitor skepticism and driving enterprise demo requests.',
-    tags: ['SaaS Landing Page', 'AI Tech', 'Webflow', 'Interactive UX']
+    details: 'Transformed an upscale hair salon’s online presence with an authority redesign that highlights dramatic hair transformations and fills appointment books on autopilot.',
+    tags: ['Hair Salon', 'Appointment Booking', 'GoHighLevel', 'Conversion Redesign']
   },
   {
     id: 'faceless-youtube',
@@ -147,26 +150,29 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     tags: ['Info Product', 'Launch Funnel', 'Shopify / PageFly', 'Conversion Design']
   },
   {
-    id: 'health-longevity',
-    client: 'VitalApex Longevity',
-    niche: 'High-Ticket Health & Biohacking Protocol',
-    headline: 'Reverse Biological Age: The Cellular Optimization Blueprint',
-    metric: '+360% Consultation Bookings',
-    image: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/kitchen-redesign-16jun26-compare.png',
-    beforeImg: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
-    afterImg: 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/kitchen-redesign-16jun26-compare.png',
+    id: 'tuition-hero-redesign',
+    client: 'Tuition Hero Academy',
+    niche: 'Private Tutoring & Exam Mastery Enrollment Funnel',
+    headline: 'Unlock Top Academic Scores With Vetted 1-on-1 Subject Specialists',
+    metric: '+380% Student Enrollments',
+    image: '/images/tuition-hero-b4-af.png',
+    images: [
+      '/images/tuition-hero-b4-af.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/tuition-hero-b4-af.png',
     beforePain: [
-      'Clinical, intimidating medical jargon with poor mobile navigation',
-      'No clear patient success stories or scientific proof benchmarks',
-      'Buried consultation calendar resulting in 82% bounce rate'
+      'Dull generic brochure website with wall of confusing subject text',
+      'Zero tutor score credentials or parent video testimonials shown above fold',
+      'Slow email inquiry form taking 48 hours for parent response'
     ],
     afterGain: [
-      'Serene emerald & slate authority design with bio-marker trackers',
-      'Interactive 60-second biological age self-assessment calculator',
-      'Frictionless calendar booking with automated confirmation workflows'
+      'High-energy academic authority aesthetic with parent proof metrics',
+      'Interactive 30-second diagnostic matching tool by grade & syllabus',
+      'Instant trial lesson booking with automated WhatsApp & SMS reminders'
     ],
-    details: 'Transformed a functional medicine clinic’s digital presence into an elite patient acquisition engine, boosting high-ticket program conversions from organic search and social traffic.',
-    tags: ['Health & Wellness', 'High-Ticket Funnel', 'GoHighLevel', 'Interactive Assessment']
+    details: 'Re-engineered the complete student acquisition and parent enrollment funnel for Tuition Hero, dramatically lowering cost per student trial and accelerating enrollment velocity.',
+    tags: ['Education & Tutoring', 'Enrollment Funnel', 'GoHighLevel', 'Conversion Redesign']
   },
   {
     id: 'wealth-advisory',
@@ -189,6 +195,156 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     ],
     details: 'Re-architected the client onboarding funnel for a boutique wealth firm, establishing undeniable trust and driving high-net-worth investor consultations.',
     tags: ['Finance & Wealth', 'Application Funnel', 'ClickFunnels 2.0', 'VIP Lead Gen']
+  },
+  {
+    id: 'anytime-fitness-redesign',
+    client: 'Anytime Fitness Redesign',
+    niche: 'Fitness Franchise & High-Volume Membership Funnel',
+    headline: 'Transforming Local Gym Traffic Into Consistent Monthly Memberships',
+    metric: '+275% Member Signups',
+    image: '/images/anytime-b4-af-all.png',
+    images: [
+      '/images/anytime-b4-af-all.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/anytime-b4-af-all.png',
+    beforePain: [
+      'Outdated corporate template with friction-heavy sign-up form',
+      'Lacked clear local gym incentives or 7-day trial hooks',
+      'Poor mobile optimization leading to 68% mobile drop-off'
+    ],
+    afterGain: [
+      'High-energy, conversion-focused local membership landing page',
+      'Frictionless 2-step VIP trial claim with instant SMS pass confirmation',
+      'Social proof wall featuring real member before-and-after transformations'
+    ],
+    details: 'Complete funnel overhaul and membership acquisition system for Anytime Fitness, driving continuous local trial claims and paid member signups.',
+    tags: ['Fitness Funnel', 'Membership Acquisition', 'GoHighLevel', 'Conversion Redesign']
+  },
+  {
+    id: 'nyc-consulting-redesign',
+    client: 'NYC Strategic Advisory',
+    niche: 'High-Ticket NYC Advisory & B2B Consulting Funnel',
+    headline: 'Turn Complex Advisory Services Into High-Converting Inbound Pipelines',
+    metric: '+415% Qualified Inquiries',
+    image: '/images/nyc-b4-af.png',
+    images: [
+      '/images/nyc-b4-af.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/nyc-b4-af.png',
+    beforePain: [
+      'Overly technical engineering jargon that confused executive buyers',
+      'Zero interactive proof demonstrations or executive client roadmap',
+      'Cold generic contact form with high friction and poor conversion'
+    ],
+    afterGain: [
+      'High-impact dark luxury executive aesthetic with sleek visual breakdown',
+      'Interactive executive consultation roadmap and authority proof layout',
+      'Frictionless executive discovery audit booking flow'
+    ],
+    details: 'Engineered a high-converting conversion funnel and landing page redesign for NYC-based advisory, turning high-value traffic into vetted client consultations.',
+    tags: ['NYC Consulting', 'B2B Sales Funnel', 'GoHighLevel', 'Conversion Redesign']
+  },
+  {
+    id: 'e-coach-transformation',
+    client: 'Elena Rostova Executive Coaching',
+    niche: 'High-Ticket Female Founder & Executive Mentorship',
+    headline: 'Scale to 7-Figures With Predictable High-Ticket Client Acquisition',
+    metric: '+360% Strategy Call Bookings',
+    image: '/images/e-coach-b4-af.png',
+    images: [
+      '/images/e-coach-b4-af.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/e-coach-b4-af.png',
+    beforePain: [
+      'Disjointed brand presence failing to reflect high-ticket authority',
+      'No pre-qualification mechanism resulting in tire-kickers and low show-up rates',
+      'Unoptimized mobile funnel causing massive drop-off from paid social campaigns'
+    ],
+    afterGain: [
+      'Prestigious dark luxury aesthetic with bold editorial social proof banners',
+      'Interactive 3-tier qualification questionnaire with automated booking',
+      'Seamless calendar scheduling delivering 89% qualified show-up rate'
+    ],
+    details: 'Complete positioning overhaul and funnel redesign for an elite executive coach, converting organic social followers and paid ads into vetted 5-figure coaching clients.',
+    tags: ['Executive Coaching', 'High-Ticket Funnel', 'GoHighLevel', 'Authority Design']
+  },
+  {
+    id: 'vo-hero-studio',
+    client: 'VO Hero Audio Academy',
+    niche: 'Voiceover Artist Training & Creative Masterclass Funnel',
+    headline: 'From Home Studio to Professional Voiceover Contracts',
+    metric: '4.8x Meta Ad ROAS',
+    image: '/images/vo-hero-b4-af.png',
+    images: [
+      '/images/vo-hero-b4-af.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/vo-hero-b4-af.png',
+    beforePain: [
+      'Outdated sales page with weak audio sample players and low trust',
+      'No clear student audio transformation demos or industry proof badges',
+      'Single-tier checkout with zero average order value optimization'
+    ],
+    afterGain: [
+      'Cinematic studio dark-mode layout with instant interactive audio previews',
+      'Visual breakdown of the home studio launch framework',
+      'High-converting 2-step checkout with equipment bundle order bumps'
+    ],
+    details: 'Engineered a cinematic direct-response VSL and enrollment funnel for an elite voiceover academy, dramatically lowering customer acquisition cost and boosting front-end margins.',
+    tags: ['Creative Academy', 'VSL Funnel', 'ClickFunnels 2.0', 'Audio UX']
+  },
+  {
+    id: 'childcare-aware-redesign',
+    client: 'Child Care Aware & Early Learning',
+    niche: 'Early Childhood Education & Family Enrollment Funnel',
+    headline: 'Connecting Families With Trusted Early Child Care & Preschool Learning',
+    metric: '+290% Parent Inquiries',
+    image: '/images/childcare-aware.png',
+    images: [
+      '/images/childcare-aware.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/childcare-aware.png',
+    beforePain: [
+      'Dense regulatory text and confusing state subsidy eligibility forms',
+      'No warm visual tour of learning centers or teacher safety credentials',
+      'High abandonment rate on standard multi-page enrollment application'
+    ],
+    afterGain: [
+      'Warm family-first welcoming aesthetic with clear accreditation badges',
+      'Interactive 3-step childcare subsidy eligibility calculator',
+      'Frictionless virtual campus tour and enrollment schedule reservation'
+    ],
+    details: 'Re-architected the parent onboarding and enrollment funnel for early learning networks, providing clarity, building immediate trust, and accelerating enrollment cycles.',
+    tags: ['Education & Childcare', 'Enrollment Funnel', 'GoHighLevel', 'Lead Qualification']
+  },
+  {
+    id: 'inspire-fitness-redesign',
+    client: 'Inspire Fitness Studio',
+    niche: 'Boutique Fitness & High-Value Personal Training Funnel',
+    headline: 'Pack Group Classes & High-Ticket Training Memberships On Autopilot',
+    metric: '+340% VIP Trial Claims',
+    image: '/images/inspire-fitness-b4-af.png',
+    images: [
+      '/images/inspire-fitness-b4-af.png'
+    ],
+    beforeImg: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80',
+    afterImg: '/images/inspire-fitness-b4-af.png',
+    beforePain: [
+      'Generic gym template with uninspired stock workout photography',
+      'No clear transformation stories, coach credentials, or local community feel',
+      'Complicated multi-step registration causing 78% mobile drop-off'
+    ],
+    afterGain: [
+      'High-energy neon athletic aesthetic with bold member transformation proof',
+      'Interactive 14-day VIP pass voucher claim with instant SMS delivery',
+      'Automated onboarding sequence increasing trial-to-membership conversion to 46%'
+    ],
+    details: 'Complete brand positioning and membership acquisition funnel overhaul for Inspire Fitness, scaling paid ad efficiency and filling studio group sessions consistently.',
+    tags: ['Fitness Funnel', 'Membership Acquisition', 'GoHighLevel', 'Conversion Redesign']
   }
 ];
 

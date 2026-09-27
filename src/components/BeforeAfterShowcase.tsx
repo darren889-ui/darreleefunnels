@@ -7,6 +7,29 @@ interface BeforeAfterShowcaseProps {
   onSelectCase: (caseStudy: BeforeAfterCase) => void;
 }
 
+const formatImageUrl = (url?: string) => {
+  if (!url) return '';
+  if (url.includes('github.com') && url.includes('/blob/')) {
+    return url.replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
+  }
+  return url;
+};
+
+const getFallbackUrl = (src: string) => {
+  if (src.startsWith('/images/')) {
+    const filename = src.replace('/images/', '');
+    if (filename === 'b4-af-hair-salon.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/b4%26af-hair%20salon.png';
+    if (filename === 'childcare-aware.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/childcare%20Aware.png';
+    if (filename === 'e-coach-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/E-coach-b4%26af-20sep26.png';
+    if (filename === 'vo-hero-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/Vo-Hero-b4%26af.png';
+    if (filename === 'tuition-hero-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/87be8a5588886741c16068f1116a0582d0aca9c4/tuition-hero-b4%26af-20sep26.png';
+    if (filename === 'inspire-fitness-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/87be8a5588886741c16068f1116a0582d0aca9c4/inspire%20fitness-b4%26af-23sep26.png';
+    if (filename === 'ai-consultant-lp.png') return 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/ai%20consultatant%20LP1.png';
+    return `https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/${encodeURI(filename)}`;
+  }
+  return src;
+};
+
 export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSelectCase }) => {
   const [activeTab, setActiveTab] = useState<string>('all');
   const [sliderPositions, setSliderPositions] = useState<{ [key: string]: number }>({});
@@ -65,18 +88,32 @@ export const BeforeAfterShowcase: React.FC<BeforeAfterShowcaseProps> = ({ onSele
                         item.images.map((imgSrc, imgIdx) => (
                           <img
                             key={imgIdx}
-                            src={imgSrc}
+                            src={formatImageUrl(imgSrc)}
                             alt={`${item.client} redesign page ${imgIdx + 1}`}
                             className="w-full h-auto min-h-full object-cover object-top block"
                             referrerPolicy="no-referrer"
+                            onError={(e) => {
+                              const fallback = getFallbackUrl(imgSrc);
+                              if (fallback !== imgSrc) {
+                                e.currentTarget.src = fallback;
+                              }
+                            }}
                           />
                         ))
                       ) : (
                         <img
-                          src={item.image}
+                          src={formatImageUrl(item.image)}
                           alt={`${item.client} redesign`}
                           className="w-full h-auto min-h-full object-cover object-top block"
                           referrerPolicy="no-referrer"
+                          onError={(e) => {
+                            if (item.image) {
+                              const fallback = getFallbackUrl(item.image);
+                              if (fallback !== item.image) {
+                                e.currentTarget.src = fallback;
+                              }
+                            }
+                          }}
                         />
                       )}
                     </div>

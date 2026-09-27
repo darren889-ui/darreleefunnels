@@ -8,6 +8,30 @@ interface ProjectModalProps {
   onOpenAuditModal?: () => void;
 }
 
+const formatImageUrl = (url?: string) => {
+  if (!url) return '';
+  if (url.includes('github.com') && url.includes('/blob/')) {
+    return url.replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
+  }
+  return url;
+};
+
+const getFallbackUrl = (src?: string) => {
+  if (!src) return '';
+  if (src.startsWith('/images/')) {
+    const filename = src.replace('/images/', '');
+    if (filename === 'b4-af-hair-salon.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/b4%26af-hair%20salon.png';
+    if (filename === 'childcare-aware.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/childcare%20Aware.png';
+    if (filename === 'e-coach-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/E-coach-b4%26af-20sep26.png';
+    if (filename === 'vo-hero-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/Vo-Hero-b4%26af.png';
+    if (filename === 'tuition-hero-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/87be8a5588886741c16068f1116a0582d0aca9c4/tuition-hero-b4%26af-20sep26.png';
+    if (filename === 'inspire-fitness-b4-af.png') return 'https://raw.githubusercontent.com/darren889-ui/darreleefunnels/87be8a5588886741c16068f1116a0582d0aca9c4/inspire%20fitness-b4%26af-23sep26.png';
+    if (filename === 'ai-consultant-lp.png') return 'https://raw.githubusercontent.com/darren889-ui/profile-image/46386ed5d801b250a36ca14cd09f4089d2289c2e/ai%20consultatant%20LP1.png';
+    return `https://raw.githubusercontent.com/darren889-ui/darreleefunnels/79862914f5ff6ed914f44d96ae1468102ede0389/${encodeURI(filename)}`;
+  }
+  return src;
+};
+
 export const ProjectModal: React.FC<ProjectModalProps> = ({ item, onClose }) => {
   if (!item) return null;
 
@@ -56,18 +80,31 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ item, onClose }) => 
               (item as BeforeAfterCase).images!.map((imgSrc, imgIdx) => (
                 <img
                   key={imgIdx}
-                  src={imgSrc}
+                  src={formatImageUrl(imgSrc)}
                   alt={`${(item as BeforeAfterCase).client} redesign page ${imgIdx + 1}`}
                   className="w-full h-auto object-cover object-top block"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    const fallback = getFallbackUrl(imgSrc);
+                    if (fallback && fallback !== imgSrc) {
+                      e.currentTarget.src = fallback;
+                    }
+                  }}
                 />
               ))
             ) : (item as BeforeAfterCase).image || (item as BeforeAfterCase).afterImg ? (
               <img
-                src={(item as BeforeAfterCase).image || (item as BeforeAfterCase).afterImg}
+                src={formatImageUrl((item as BeforeAfterCase).image || (item as BeforeAfterCase).afterImg)}
                 alt={`${(item as BeforeAfterCase).client} redesign`}
                 className="w-full h-auto object-cover object-top block"
                 referrerPolicy="no-referrer"
+                onError={(e) => {
+                  const target = ((item as BeforeAfterCase).image || (item as BeforeAfterCase).afterImg);
+                  const fallback = getFallbackUrl(target);
+                  if (fallback && fallback !== target) {
+                    e.currentTarget.src = fallback;
+                  }
+                }}
               />
             ) : null
           ) : projectItem?.iframeUrl ? (
