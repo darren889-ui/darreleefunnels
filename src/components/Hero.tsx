@@ -30,22 +30,18 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAuditModal, onExploreClick }) 
         </div>
 
         {/* Hero Title */}
-        <h1 className="font-['Outfit'] font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tight text-white max-w-5xl mx-auto leading-[1.08] mb-6 drop-shadow-lg">
-          Turn Clicks Into{' '}
+        <h1 className="font-['Outfit'] font-extrabold text-4xl sm:text-6xl lg:text-7xl tracking-tight text-white max-w-5xl mx-auto leading-[1.1] mb-6 drop-shadow-lg">
+          Turn More Website Visitors Into{' '}
           <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-cyan-400">
-            CLIENTS
-            <span className="absolute left-0 bottom-1 sm:bottom-2 w-full h-[6px] bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full opacity-60"></span>
+            Qualified Leads
+            <span className="absolute left-0 bottom-1 sm:bottom-2 w-full h-[5px] bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full opacity-60"></span>
           </span>{' '}
-          Instantly
+          and Paying Clients
         </h1>
 
         {/* Sub-headline */}
         <p className="text-lg sm:text-2xl text-slate-200 max-w-3xl mx-auto font-normal leading-relaxed mb-10 drop-shadow-md">
-          Strategic landing pages and funnels built to turn everyday clicks into your next{' '}
-          <span className="text-white font-semibold underline decoration-blue-500/60 underline-offset-4">
-            high-value clients
-          </span>
-          .
+          Strategic landing pages, sales funnels, and websites designed to communicate your value, build trust, and guide visitors to take action.
         </p>
 
         {/* Primary CTA Block */}

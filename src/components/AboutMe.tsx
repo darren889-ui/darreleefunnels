@@ -98,7 +98,7 @@ export const AboutMe: React.FC<AboutMeProps> = ({ onOpenAuditModal }) => {
                 Whether you are <strong className="text-white"> launching an offer, generating leads, or selling a product</strong>, I design funnels that are built to convert—not just look good.
               </p>
               <p className="p-4 rounded-xl bg-blue-950/30 border border-blue-500/30 text-blue-200 font-medium">
-                I don’t just design pages,<strong className="text-white">but design experiences that move people to take action.</strong>
+                I don’t just design pages. <strong className="text-white font-semibold">I design experiences that inspire action.</strong>
               </p>
             </div>
 
